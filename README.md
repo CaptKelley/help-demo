@@ -5,7 +5,7 @@ as specified in acceptance criteria as a coding exercise.
 For security reasons the specifics of the server and 
 acceptance criteria are not included in this repo.
 
-###Installation
+### Installation
 Make sure that you have Node.js LTS (8) and npm (5)
 installed.  Clone the github repo onto your local machine.
 
@@ -26,18 +26,18 @@ Because it is a terrible idea to have connection or security information on gith
 `export help_demo_username=<MyUserName>` The username you want used for authentication to the demo server. (Limit 12 characters)
 
 
-###Test
+### Test
 Mocha and chai are used for unit testing.  You can execute the tests using npm.
 
 `npm test`
 
-###Execution
+### Execution
 To launch the app, npm to the rescue.
 
 `npm start`
 
 The application will prompt you with your options, and allow graceful disconnection.
 
-###Logging
+### Logging
 Application logs are being sent to loggly.com. Yes. I'm monitoring my process and spying on you.
 
