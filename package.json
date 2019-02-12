@@ -1,0 +1,27 @@
+{
+  "name": "help-demo",
+  "version": "0.0.1",
+  "description": "Demonstration Client",
+  "repository": "https://github.com/wmaness/help-demo",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "test": "mocha",
+    "start": "node app/app.js"
+  },
+  "dependencies": {
+    "winston-loggly-bulk": "^2.0.3"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.13.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "mocha": "^5.2.0",
+    "nyc": "^13.2.0"
+  }
+}
