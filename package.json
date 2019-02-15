@@ -7,9 +7,11 @@
   "private": true,
   "scripts": {
     "test": "mocha",
-    "start": "node app/app.js"
+    "start": "node app/app.js",
+    "coverage": "nyc npm test"
   },
   "dependencies": {
+    "uniqid": "^5.0.3",
     "winston-loggly-bulk": "^2.0.3"
   },
   "devDependencies": {
@@ -22,6 +24,8 @@
     "eslint-plugin-promise": "^4.0.1",
     "eslint-plugin-standard": "^4.0.0",
     "mocha": "^5.2.0",
-    "nyc": "^13.2.0"
+    "mocha-sinon": "^2.1.0",
+    "nyc": "^13.2.0",
+    "sinon": "^7.2.3"
   }
 }

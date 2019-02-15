@@ -17,19 +17,22 @@ Then install dependencies.
 
 `npm install`
 
-Because it is a terrible idea to have connection or security information on github, you will need to set three environment variables before executing the code.
+#### TODO: Server values hard coded for demo
+> Because it is a terrible idea to have connection or security information on github, you will need to set three environment variables before executing the code.
 
-`export help_demo_host=<1.2.3.4>` IP address of the server you want to connect to.
+>`export help_demo_host=<1.2.3.4>` IP address of the server you want to connect to.
 
-`export help_demo_port=<1234>` Port you want to connect to
+>` export help_demo_port=<1234>` Port you want to connect to
 
-`export help_demo_username=<MyUserName>` The username you want used for authentication to the demo server. (Limit 12 characters)
+>`export help_demo_username=<MyUserName>` The username you want used for authentication to the demo server. (Limit 12 characters)
 
 
 ### Test
 Mocha and chai are used for unit testing.  You can execute the tests using npm.
 
-`npm test`
+`npm test` - Runs tests
+
+`npm coverage` - Reports test coverage
 
 ### Execution
 To launch the app, npm to the rescue.
