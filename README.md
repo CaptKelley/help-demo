@@ -2,8 +2,7 @@
 ## Demonstration Client
 This little console app connects to an ill-behaved (and very creatively nasty) server
 as specified in acceptance criteria as a coding exercise. 
-For security reasons the specifics of the server and 
-acceptance criteria are not included in this repo.
+as specified in acceptance criteria as a coding exercise. 
 
 ### Installation
 Make sure that you have Node.js LTS (8) and npm (5)
